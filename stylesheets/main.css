@@ -1,0 +1,29 @@
+#top-bar{
+  height: 90px;
+  width: 1024px;
+  background-color: lightgray;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.tab-container{
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 750px;
+  height: 40px;
+}
+
+.tabs{
+  height: 50px;
+  width: 150px;
+  background: #959292;
+  margin-right: 5px;
+  float: right;
+}
+.tabs#selected {
+  background: green;
+  width: 300px;
+}
